@@ -44,9 +44,9 @@ $content_array = explode("|", $result);
             <div id="blog_date">发布时间：<?php echo date('Y-m-d H:i:s',$content_array[1]); ?>  </div>
                 <form action="add.php" method="post" name="form">
                     <table>
-						<div><?php echo '日志内容：'.$content_array[2];?></div>
-						<br/>
-						<?php echo '<a href="index.php">返回首页</a>';?>
+				<div><?php echo '日志内容：'.$content_array[2];?></div>
+				<br/>
+				<?php echo '<a href="index.php">返回首页</a>';?>
                     </table>
                 </form>
             </div>
